@@ -13,7 +13,7 @@ describe('navigation', () => {
         .click({ force: true })
         .waitForRouteChange()
     })
-    cy.getByLabelText(/view project "Color"/i).assertRoute('/projects')
+    cy.getByLabelText(/view project "Astro"/i).assertRoute('/projects')
   })
   it('link to instagram works', () => {
     cy.get('nav').within(() => {
@@ -29,7 +29,7 @@ describe('navigation', () => {
         .click({ force: true })
         .waitForRouteChange()
     })
-    cy.getByText(/Hi. I'm LekoArts!/i).assertRoute('/about')
+    cy.getByText(/Hi. I'm Xavier White Photography!/i).assertRoute('/about')
   })
   it('link to home works', () => {
     cy.get('nav').within(() => {
@@ -37,9 +37,9 @@ describe('navigation', () => {
         .click({ force: true })
         .waitForRouteChange()
     })
-    cy.getByText(/Hi. I'm LekoArts!/i)
+    cy.getByText(/Hi. I'm Xavier White Photography!/i)
       .assertRoute('/about')
-      .getByLabelText(/LekoArts, Back to home/i)
+      .getByLabelText(/Xavier White Photography, Back to home/i)
       .click({ force: true })
       .waitForRouteChange()
       .assertRoute('/')
