@@ -254,8 +254,7 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              Website by <a href="https://www.facebook.com/xavierwhitephotography">Xavier White Photography</a>.<br />
-              <a href="https://www.facebook.com/xavierwhitephotography">Source</a>.
+              Website by <a href="https://www.facebook.com/xavierwhitephotography">Xavier White Photography</a>.
             </Box>
           </Footer>
         </Wrapper>
