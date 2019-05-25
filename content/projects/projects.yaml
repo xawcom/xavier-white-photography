@@ -20,7 +20,7 @@
   category: "Travel"
   color: "#3B00FF"
   images: "hawaii"
-  cover: "./hawaii/248.jpg"
+  cover: "static/images/hawaii/248.jpg"
   desc: "Hawaii the wonders of America."
 - title: "Singapore"
   title_detail: "Singapore - What is this this place?"
